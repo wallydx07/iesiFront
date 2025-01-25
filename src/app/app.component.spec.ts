@@ -14,16 +14,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have the 'iesiFrontApp' title`, () => {
+  it(`should have the 'untitled2' title`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('iesiFrontApp');
+    expect(app.title).toEqual('untitled2');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, iesiFrontApp');
+    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, untitled2');
   });
 });
