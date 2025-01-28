@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { AlumnoComponent } from './alumno.component';
+import { AlumnoComponent } from '../../../models/legajo';
 
 describe('AlumnoComponent', () => {
   let component: AlumnoComponent;
@@ -11,7 +11,7 @@ describe('AlumnoComponent', () => {
       imports: [AlumnoComponent]
     })
     .compileComponents();
-    
+
     fixture = TestBed.createComponent(AlumnoComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
