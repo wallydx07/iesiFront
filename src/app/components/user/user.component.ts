@@ -9,7 +9,7 @@ import { AuthService } from '../../services/auth.service';
 @Component({
   selector: 'user',
   standalone: true,
-  imports: [RouterModule, PaginatorComponent],
+  imports: [RouterModule],
   templateUrl: './user.component.html'
 })
 export class UserComponent implements OnInit {

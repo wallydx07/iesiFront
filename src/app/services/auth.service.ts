@@ -8,9 +8,7 @@ import { Observable } from 'rxjs';
 export class AuthService {
 
   private url: string = 'http://localhost:8080/login';
-
   private _token: string | undefined;
-
   private _user: any = {
     isAuth: false,
     isAdmin: false,

@@ -1,8 +1,8 @@
 export class User{
-    dni!:String;
+  dni!:String;
     nombre!:string;
     apellido!:string;
     email!:string;
-    password!:string;
+  password!:string;
 
 }
